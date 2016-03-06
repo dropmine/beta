@@ -1,0 +1,150 @@
+Version: 18
+Language:
+    Console:
+        Enabled: Marriage Master đã bật!
+        Disabled: Marriage Master đã tắt!
+        LangUpdated: Tệp ngôn ngữ đã được cập nhật.
+        NoPermPL: Không có plugin phân quyền được tìm thấy, sử dụng phân quyền mặc định.
+        NoEcoPL: Không có plugin tiền tệ được tìm thấy, vô hiệu hoá tiền tệ.
+        MetricsOffline: Metrics ngoại tuyến.
+        NotSupportedNet: Phiên bản Minecraft không hỗ trợ. Hiệu ứng trái tim được tắt.
+        UpdateUUIDs: Đang bắt đầu cập nhật cơ sở dữ liệu đến UUIDs ...
+        UpdatedUUIDs: 'Đã cập nhật %s tài khoản đến UUIDs.'
+    Description:
+        Commands: lệnh
+        ListAll: Danh sách tất cả người chơi đã kết hôn.
+        Marry: 'Kết hôn hai người trong khoảng cách %s khối.'
+        Divorce: 'Ly hôn hai người trong khoảng cách %s khối.'
+        Priest: Đặt cha xứ.
+        TP: Dịch chuyển đến người chơi đã kết hôn.
+        PvPOn: Kích hoạt PvP với đối tượng.
+        PvPOff: Tắt PvP với đối tượng.
+        SetHome: Đặt vị trí nhà.
+        TPHome: Dịch chuyển đến vị trí nhà.
+        Chat: Tin nhắn riêng tư với đối tượng.
+        ChatToggle: Chuyển đổi tin nhắn sang riêng tư với đối tượng.
+        Reload: Tải lại cấu hình plugin.
+        ListenChat: Hiện tất cả tin nhắn được gửi từ người chơi đã kết hôn với đối tượng của họ.
+        Gift: Gửi vật phẩm trên tay đến đối tượng.
+        Kiss: Hôn đối tượng.
+        Update: Kiểm tra nếu có bản cập nhật và tải nó.
+        SelfMarry: Gửi yêu cầu kết hôn đến người chơi.
+        SelfDivorce: Rời đối tượng.
+        Surname: Đổi họ của cặp đôi.
+        Backpack: Mở túi đồ của đối tượng.
+        BackpackOn: Cho phép đối tượng sử dụng túi đồ của bạn.
+        BackpackOff: Không cho phép đối tượng sử dụng túi đồ của bạn.
+        DelHome: Xoá vị trí nhà.
+        TPHomeOther: Dịch chuyển đến nhà người chơi đã kết hôn.
+        DelHomeOther: Xoá nhà người chơi đã kết hôn.
+    Ingame:
+        NotMarried: Bạn chưa kết hôn.
+        NoMarriedPlayers: Không có người chơi đã kết hôn.
+        NotAPriest: Bạn không phải là cha xứ.
+        NoPermission: "Bạn không có quyền để làm điều đó."
+        PartnerOnline: Đối tượng trực tuyến.
+        PartnerOffline: Đối tượng ngoại tuyến.
+        PartnerNowOnline: Đối tượng của bạn đã trực tuyến.
+        PartnerNowOffline: Đối tượng của bạn đã ngoại tuyến.
+        PvPOn: Bạn đã bật PvP với đối tượng.
+        PvPOff: Bạn đã tắt PvP với đối tượng.
+        PlayerNoHome: "Người chơi vẫn chưa có nhà."
+        NoHome: Bạn chưa có nhà.
+        HomeTP: Bạn đã được dịch chuyển đến nhà.
+        HomeSet: Nhà đã được lưu lại.
+        PlayerNotOn: '%s không trực tuyến.'
+        NoTPInVanish: Bạn không thể sử dụng dịch chuyển nếu đối tượng đã tan biến.
+        TP: Đang dịch chuyển đến đối tượng...
+        TPto: Đối tượng đang dịch chuyển đến bạn...
+        TPUnsafe: "Dịch chuyển bị huỷ! Bạn không tồn tại nó!"
+        TPtoUnsafe: "Đối tượng sắp dịch chuyển đến bạn, nhưng sẽ không tồn tại nó!"
+        ListHL: Danh sách người chơi đã kết hôn
+        ListHLMP: 'Hiển thị trang %1$d/%2$d - /marry list <page>'
+        PvPIsOff: Bạn không thể làm hại đối tượng nếu PvP đã được tắt.
+        ListeningStarted: Hiện bạn đang nghe đối thoại từ đối tượng.
+        ListeningStoped: Hiện bạn không còn nghe đối thoại từ đối tượng.
+        PriestMarryOff: 'Cha xứ (%s) hiện ngoại tuyến, lễ thành hôn bị huỷ bỏ.'
+        PlayerMarryOff: '%s hiện ngoại tuyến, lễ thành hôn bị huỷ bỏ.'
+        PlayerCalledOff: '%s kêu gọi huỷ bỏ lễ thành hôn.'
+        YouCalledOff: Bạn đã kêu gọi huỷ lễ thành hôn.
+        NoItemInHand: Bạn không giữ vật phẩm.
+        PartnerInvFull: Đối tượng không còn khoảng trống trong túi đồ.
+        ItemSent: 'Bạn đã gửi đối tượng %1$s %2$s.'
+        ItemReceived: 'Đối tượng đã gửi đến bạn %1$s %2$s.'
+        GiftsOnlyInSurvival: Bạn chỉ có thể gửi vật phẩm đến đối tượng chỉ khi bạn đang trong chế độ sinh tồn.
+        YouKissed: Bạn đã hôn đối tượng!
+        YouGotKissed: Đối tượng đã hôn bạn!
+        TooFarToKiss: Bạn đứng quá xa để có thể hôn đối tượng. (Tối đa 2 khối)
+        KissWait: 'Bạn phải chờ %s giây để có thể hôn đối tượng trở lại.'
+        WorldNotAllowed: Đối tượng đang trong thế giới mà dịch chuyển không cho phép.
+        CheckingForUpdates: 'Kiểm tra cập nhật ...'
+        Updated: 'Plugin đã được cập nhật, sẽ được tải lại trong lần khởi động lại/làm mới sau đó.'
+        NoUpdate: 'Không có bản cập nhật nào.'
+        MarryConfirm: '%s muốn kết hôn với bạn. Chấp nhận kết hôn hãy nhập /marry <accept> hoặc từ chối /marry <deny>'
+        HasMarried: 'Bạn đã kết hôn %s.'
+        BroadcastMarriage: '%1$s đã kết hôn với %2$s.'
+        BroadcastDivorce: '%1$s đã ly hôn %2$s.'
+        Divorced: 'Bạn đã ly hôn %s. Bạn được tự do.'
+        DivorcedPlayer: '%s đã ly hôn bạn. Bạn được tự do.'
+        AlreadyMarried: Bạn đã kết hôn!
+        OtherAlreadyMarried: '%s đã kết hôn.'
+        AlreadyOpenRequest: Hiện tại bạn có yêu cầu kết hôn chưa phản hồi.
+        MarryRequestSent: Gửi yêu cầu kết hôn.
+        TPMoved: Dịch chuyển bị huỷ bỏ! Bạn đã di chuyển!
+        TPDontMove: "Dịch chuyển sẽ xảy ra trong %s giây nữa! Đừng di chuyển!"
+        NotYourself: Bạn không thể kết hôn với bản thân.
+        ChatJoined: Bạn đã gửi tin nhắn đến tin nhắn kết hôn bí mật.
+        ChatLeft: Bạn đã đặt tin nhắn tán gẫu thành công khai.
+        NaN: Giá trị đã nhập không phải là số!
+        NotInRange: Đối tượng ở quá xa.
+        BackpackOnlyInSurvival: Bạn chỉ có thể truy cập túi đồ của đối tượng khi bạn trong chế độ sinh tồn.
+        BackpackShareOn: Hiện bạn chia sẻ túi đồ với đối tượng.
+        BackpackShareOff: Hiện bạn không chia sẻ túi đồ với đối tượng.
+        BackpackOpend: Đối tượng đã mở túi đồ của bạn.
+        BackpackShareDenied: Đối tượng không cho phép bạn truy cập túi đồ của họ.
+        HomeDeleted: Vị trí nhà đã được xoá.
+    Economy:
+        NotEnough: "Bạn không có đủ tiền! Bạn cần có %1$s."
+        PartnerNotEnough: Đối tượng không có đủ tiền!
+        NotEnoughPriestInfo: Người chơi mà bạn đang cố kết hôn hiện tại không có đủ tiền.
+        HomeTPPaid: 'Bạn đã chi trả %1$s cho việc dịch chuyển về nhà. (còn lại %2$s)'
+        SetHomePaid: 'Bạn đã chi trả %1$s cho việc đặt vị trí nhà (còn lại %2$s)'
+        TPPaid: 'Bạn đã chi trả %1$s ho việc dịch chuyển (còn lại %1$s)'
+        DivorcePaid: 'Bạn đã chi trả %1$s cho việc kết hôn hàng năm (còn lại %2$s)'
+        DivNotEnoPriestI: Người chơi mà bạn đang cố ly hôn hiện tại không có đủ tiền.
+        MarriagePaid: 'Bạn đã chi trả %1$s cho việc kết hôn (còn lại %2$s)'
+        GiftPaid: 'Bạn đã chi trả %1$s để gửi vật phẩm đến đối tượng (còn lại %2$s)'
+    Priest:
+        NotWithHimself: "Bạn không thể kết hôn %s với bản thân họ."
+        NotInRange: Người chơi không ở trong phạm vi.
+        AlreadyMarried: Bạn không thể kết hôn người chơi mà đã kết hôn.
+        BroadcastMarriage: '%1$s đã kết hôn %2$s với %3$s.'
+        BroadcastDivorce: '%1$s đã ly hôn %2$s từ %3$s.'
+        Married: 'Bạn đã kết hôn %1$s với %2$s.'
+        HasMarried: '%1$s đã kết hôn bạn với %2$s.'
+        MadeYouAPriest: '%s đã cho phép bạn làm cha xứ.'
+        MadeAPriest: 'Bạn đã cho %s làm cha xứ.'
+        UnMadeYouAPriest: '%s đã sa thải bạn từ một cha xứ.'
+        UnMadeAPriest: 'Bạn đã sa thải %s như một cha xứ.'
+        PlayerNotMarried: Người chơi chưa kết hôn.
+        PartnerOffline: "Đối tượng %1$s của (%2$s) hiện không trực tuyến."
+        DivorcedPlayer: '%1$s đã ly hôn với %2$s.'
+        Divorced: 'Bạn đã ly hôn %1$s và %2$s.'
+        Confirm: 'Chấp nhận kết hôn hãy nhập /marry <accept> hoặc từ chối hãy nhập /marry <deny>'
+        AlreadyAccepted: 'Bạn đã chấp nhận việc kết hôn.'
+        NoRequest: 'Không có yêu cầu kết hôn được mở.'
+        NotYourSelf: 'Bạn không có quyền kết hôn bản thân.'
+        AlreadyOpenRequest: '%s hiện có một yêu cầu kết hôn chưa trả lời.'
+        DivPlayerOff: '%s hiện ngoại tuyến, ly hôn bị huỷ.'
+        DivPriestOff: 'Cha xứ (%s) hiện ngoại tuyến, ly hôn bị huỷ.'
+        PlayerCanceled: '%s đã từ chối việc ly hôn.'
+        DivorceCanceled: Bạn đã từ chối việc ly hôn.
+        DivorceConfirm: 'Chấp nhận ly hôn nhập /marry <accept> hoặc từ chối nhập /marry <deny>'
+        SurnameSet: Họ đã được thay đổi.
+        DivorceRequestSent: 'Gửi yêu cầu ly hôn.'
+    Dialog:
+        DoYouWant: 'Bạn %1$s, có muốn kết hôn với %2$s trên máy chủ này không?'
+        AndDoYouWant: 'Và %1$s, có muốn kết hôn với %2$s trên máy chủ này không?'
+        Married: 'Và bây giờ tôi tuyên bố hai bạn là vợ chồng. Hai bạn có thể hôn nhau.'
+        YesIWant: 'Vâng, tôi đồng ý!'
+        NoIDontWant: 'Không, tôi không muốn!'
