@@ -1,11 +1,11 @@
-no-points: '&cYou need {points} player points for this.'
-no-open-permission: '&cYou don''t have permission &e{permission} &cto use this menu.'
-default-no-icon-permission: '&cYou don''t have permission for this icon.'
-open-menu: '&aOpening the menu "{menu}".'
-no-exp: '&cYou need {levels} XP levels for this.'
-menu-not-found: '&cMenu not found! Please inform the staff.'
-no-money: '&cYou need {money}$ for this.'
-no-required-item: '&cYou must have &e{amount}x {material} &c(ID: {id}, data value:
-  {datavalue}) for this.'
-open-menu-others: '&aOpening the menu "{menu}" to {player}.'
-any: any
+no-points: '&cBạn cần {points} điểm cho điều này.'
+no-open-permission: '&cBạn không có quyền &e{permission} &cđể sử dụng menu này.'
+default-no-icon-permission: '&cBạn không có quyền cho biểu tượng này.'
+open-menu: '&aĐang mờ menu "{menu}".'
+no-exp: '&cBạn cần {levels} XP để làm điều này.'
+menu-not-found: '&cMenu không tìm thấy! Vui lòng thông báo cho ban quản trị.'
+no-money: '&cBạn cần {money}$ cho điều này.'
+no-required-item: '&cBạn phải có &e{amount}x {material} &c(ID: {id}, giá trị dữ liệu:
+  {datavalue}) cho điều này.'
+open-menu-others: '&aĐang mở menu "{menu}" cho {player}.'
+any: mọi
