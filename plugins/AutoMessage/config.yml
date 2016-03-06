@@ -17,7 +17,7 @@ message-lists:
     - '&c&c[Hệ thống]&r &aCảm ơn bạn đã tham gia máy chủ của chúng tôi. Chúc bạn có một ngày thật vui vẻ!'
     - '&c&c[Hệ thống]&r &3Trên máy chủ cấm mọi hành vi gian lận, nếu phát hiện sẽ bị xử lý theo quy định.'
     - '&c&c[Hệ thống]&r &dNếu phát hiện hệ thống xảy ra lỗi vui lòng liên hệ ban quản trị ngay lập tức.'
-    - '&c&c[Hệ thống]&r &9Ủng hộ nạp thẻ để chúng tôi duy trì và nâng cấp máy chủ nhe!'
+    - '&c&c[Hệ thống]&r &9Ủng hộ nạp thẻ để chúng tôi duy trì và nâng cấp máy chủ nhé!'
   json:
     enabled: true
     random: false
