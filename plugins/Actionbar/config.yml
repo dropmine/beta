@@ -1,0 +1,49 @@
+# Actionbar v1.2.4.8 by sn1cko
+# Time is set in milliseconds which means every 20 = 1 second
+# for example: 6000 = 5 minuntes OR 300 = 15 seconds
+# 
+# The announcer will never stop if the time is set to 0
+# Else it will stop after the amount of milliseconds you wish
+# 
+# There are currently 15 variables available which can be built in
+# for example %player% - will display the playername or %health% - will give out the health
+# all other variables can be found on the website
+# http://dev.bukkit.org/bukkit-plugins/actionbar/pages/variables
+Actionbar:
+  Settings:
+    FirstJoin:
+      Toggle: true
+      Time: 5
+      Messages:
+      - '&6&lWelcome &e&l%player% &6&lto this server'
+      - '&5&lWelcome &d&l%player% &5&lto this server'
+      - '&4&lWelcome &c&l%player% &4&lto this server'
+      - '&3&lWelcome &b&l%player% &3&lto this server'
+      - '&2&lWelcome &a&l%player% &2&lto this server'
+    Join:
+      Toggle: true
+      Time: 5
+      Messages:
+      - '&2&lWelcome &a&lback &2&l%player%'
+      - '&3&lWelcome &b&lback &3&l%player%'
+      - '&4&lWelcome &c&lback &4&l%player%'
+      - '&5&lWelcome &d&lback &5&l%player%'
+      - '&6&lWelcome &e&lback &6&l%player%'
+    Staff:
+      Permission: actionbar.staff
+    ColorCodes:
+      Toggle: true
+    ActionMessage:
+      Toggle: true
+ActionbarAnnouncer:
+  Settings:
+    Toggle: true
+    StopTime: 0
+    Time: 6000
+    Messages:
+      Messages:
+      - '&6&lActionbar &e&oThanks for downloading this plugin :)'
+      - '&2&lInfo &a&oThere are currently &2&o%onlineplayers% &a&o/ &2&o%maxonlineplayers%
+        &a&oplayers online'
+      - '&5&lAnnouncer &d&oSpecial Thanks to @PhantomX'
+      - '&9&oalso to @AgreSith ;)'
