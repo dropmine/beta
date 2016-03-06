@@ -15,20 +15,20 @@ Actionbar:
       Toggle: true
       Time: 5
       Messages:
-      - '&6&lWelcome &e&l%player% &6&lto this server'
-      - '&5&lWelcome &d&l%player% &5&lto this server'
-      - '&4&lWelcome &c&l%player% &4&lto this server'
-      - '&3&lWelcome &b&l%player% &3&lto this server'
-      - '&2&lWelcome &a&l%player% &2&lto this server'
+      - '&6&lChào mừng &e&l%player% &6&lđã tham gia máy chủ'
+      - '&5&lChào mừng &d&l%player% &5&lđã tham gia máy chủ'
+      - '&4&lChào mừng &c&l%player% &4&lđã tham gia máy chủ'
+      - '&3&lChào mừng &b&l%player% &3&lđã tham gia máy chủ'
+      - '&2&lChào mừng &a&l%player% &2&lđã tham gia máy chủ'
     Join:
       Toggle: true
       Time: 5
       Messages:
-      - '&2&lWelcome &a&lback &2&l%player%'
-      - '&3&lWelcome &b&lback &3&l%player%'
-      - '&4&lWelcome &c&lback &4&l%player%'
-      - '&5&lWelcome &d&lback &5&l%player%'
-      - '&6&lWelcome &e&lback &6&l%player%'
+      - '&2&lChào mừng &a&lđã quay trở lại &2&l%player%'
+      - '&3&lChào mừng &b&lđã quay trở lại &3&l%player%'
+      - '&4&lChào mừng &c&lđã quay trở lại &4&l%player%'
+      - '&5&lChào mừng &d&lđã quay trở lại &5&l%player%'
+      - '&6&lChào mừng &e&lđã quay trở lại &6&l%player%'
     Staff:
       Permission: actionbar.staff
     ColorCodes:
@@ -42,8 +42,8 @@ ActionbarAnnouncer:
     Time: 6000
     Messages:
       Messages:
-      - '&6&lActionbar &e&oThanks for downloading this plugin :)'
-      - '&2&lInfo &a&oThere are currently &2&o%onlineplayers% &a&o/ &2&o%maxonlineplayers%
-        &a&oplayers online'
-      - '&5&lAnnouncer &d&oSpecial Thanks to @PhantomX'
-      - '&9&oalso to @AgreSith ;)'
+      - '&6&l[Hệ thống] &e&oCảm ơn bạn đã luôn ủng hộ chúng tôi'
+      - '&2&lThông tin &a&oHiện tại có &2&o%onlineplayers% &a&o/ &2&o%maxonlineplayers%
+        &a&ongười chơi đang trực tuyến'
+      - '&5&l[Thông báo] &d&oLiên hệ ban quản trị để nạp thẻ'
+      - '&9&onhé'
