@@ -15,13 +15,16 @@ Titlebar:
       Toggle: true
       Time: 5
       Titles:
-      - '&8&lW'
-      - '&1&lWe'
-      - '&2&lWel'
-      - '&3&lWelc'
-      - '&4&lWelco'
-      - '&5&lWelcom'
-      - '&6&lWelcome'
+      - '&8&lC'
+      - '&1&lCh'
+      - '&2&lChà'
+      - '&3&lChào'
+      - '&4&lChào '
+      - '&5&lChào m'
+      - '&6&lChào mừ'
+      - '&7&lChào mừn'
+      - '&8&lChào mừng'
+      - '&9&lChào mừng!'
       Subtitles:
       - '&7&o%player%'
       - '&9&o%player%'
@@ -34,17 +37,21 @@ Titlebar:
       Toggle: true
       Time: 5
       Titles:
-      - '&8&lW'
-      - '&1&lWe'
-      - '&2&lWel'
-      - '&3&lWelc'
-      - '&4&lWelco'
-      - '&5&lWelcom'
-      - '&6&lWelcome'
-      - '&2&lWelcome b'
-      - '&3&lWelcome ba'
-      - '&4&lWelcome bac'
-      - '&5&lWelcome back'
+      - '&8&lC'
+      - '&1&lCh'
+      - '&2&lChà'
+      - '&3&lChào'
+      - '&4&lChào '
+      - '&5&lChào m'
+      - '&6&lChào mừ'
+      - '&7&lChào mừn'
+      - '&8&lChào mừng'
+      - '&9&lChào mừng b'
+      - '&9&lChào mừng b'
+      - '&9&lChào mừng b'
+      - '&9&lChào mừng b'
+      - '&9&lChào mừng b'
+     
       Subtitles:
       - '&7&o%player%'
       - '&9&o%player%'
