@@ -14,10 +14,10 @@ message-lists:
     interval: 45
     expiry: -1
     messages:
-    - '&1First&r message \nin the default list!'
-    - '&2Second&r message \nin the default list!'
-    - '&3Third&r message \nin the default list!'
-    - 'These messages will be displayed to users with \nautomessage.receive.regular!'
+    - '&c&c[Hệ thống]&r &aCảm ơn bạn đã tham gia máy chủ của chúng tôi. Chúc bạn có một ngày thật vui vẻ!'
+    - '&c&c[Hệ thống]&r &3Trên máy chủ cấm mọi hành vi gian lận, nếu phát hiện sẽ bị xử lý theo quy định.'
+    - '&c&c[Hệ thống]&r &dNếu phát hiện hệ thống xảy ra lỗi vui lòng liên hệ ban quản trị ngay lập tức.'
+    - '&c&c[Hệ thống]&r &9Ủng hộ nạp thẻ để chúng tôi duy trì và nâng cấp máy chủ nhe!'
   json:
     enabled: true
     random: false
@@ -26,12 +26,12 @@ message-lists:
     messages:
     - |-
       {
-        "text": "Hover over me!",
+        "text": "&c&c[Hệ thống]&r Thông tin ban quản trị",
         "hoverEvent": {
             "action": "show_text",
             "value": [
               {
-                "text": "Woah, you just hovered over me!",
+                "text": "Tên: Anh Hào\nSĐT: 0974748168 - 01866572566\nEmail: learypro@gmail.com",
                 "color": "blue"
               }
             ]
@@ -39,17 +39,17 @@ message-lists:
       }
     - |-
       {
-        "text": "Click me to run a command!",
+        "text": "&c&c[Hệ thống]&r Click vào đây để nạp thẻ!",
         "clickEvent": {
           "action": "run_command",
-          "value": "/say Clicked."
+          "value": "/say Liên hệ số điện thoạt hoặc email ban quản trị để nạp thẻ."
         }
       }
     - |-
       {
-        "text": "Click me to open Google!",
+        "text": "&c&c[Hệ thống]&r Vào trang chủ",
         "clickEvent": {
           "action": "open_url",
-          "value": "http://google.com"
+          "value": "http://www.dropmine.tk"
         }
       }
