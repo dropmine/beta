@@ -1,0 +1,2 @@
+#Bằng việc thay đổi cài đặt phía dưới sang TRUE cho biết bạn đã đồng ý với EULA của chúng tôi (https://account.mojang.com/documents/minecraft_eula).
+eula=true
