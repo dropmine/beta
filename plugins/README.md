@@ -7,3 +7,4 @@
 - BetterElytra
 - Custom Join Items
 - Horses
+- PermissionsEx
