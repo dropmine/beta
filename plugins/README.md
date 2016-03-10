@@ -9,3 +9,6 @@
 - Horses
 - PermissionsEx
 - ScoreboardStats
+- AdvancedSelector
+- Advanced Kits Reloaded
+- Holographic Displays
