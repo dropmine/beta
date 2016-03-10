@@ -8,3 +8,4 @@
 - Custom Join Items
 - Horses
 - PermissionsEx
+- ScoreboardStats
