@@ -1,9 +1,9 @@
 economy:
   error:
-    nomoney: Sorry, no money left in national bank!
+    nomoney: Xin lỗi, ngân hàng quốc gia không còn tiền!
 limitedItem:
   error:
-    levelup: '&cYou need to levelup in [jobname] to use this item!'
+    levelup: '&cBạn phải lên cấp trong [jobname] để sử dụng vật phẩm này!'
 command:
   moneyboost:
     help:
