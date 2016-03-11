@@ -12,3 +12,13 @@
 - AdvancedSelector
 - Advanced Kits Reloaded
 - Holographic Displays
+- Compassance
+- CustomShields
+- Advanced Achievements
+- Jobs Reborn
+- Economy Bank
+- MySQL Inventory Bridge
+- Custom EnderChest
+- MySQL Economy Bridge
+- SkyWars
+- Gringotts
