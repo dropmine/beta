@@ -22,3 +22,4 @@
 - MySQL Economy Bridge
 - SkyWars
 - Gringotts
+- Multiverse-Core
