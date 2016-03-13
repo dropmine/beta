@@ -14,10 +14,10 @@ message-lists:
     interval: 45
     expiry: -1
     messages:
-    - '&1First&r message \nin the default list!'
-    - '&2Second&r message \nin the default list!'
-    - '&3Third&r message \nin the default list!'
-    - 'These messages will be displayed to users with \nautomessage.receive.regular!'
+    - '&1&l[Hệ thống]&r &3Cảm ơn bạn đã ủng hộ chúng tôi, chúc bạn có một ngày tốt lành.'
+    - '&1&l[Hệ thống]&r &3Chúng tôi không cho phép các hành vi gian lận, nếu phát hiện sẽ bị xử lý theo quy định.'
+    - '&1&l[Hệ thống]&r &3Nếu có thắc mắc/góp ý/báo lỗi vui lòng liên hệ với ban quản trị.'
+    - '&1&l[Hệ thống]&r &3Để nạp thẻ vui lòng liên hệ với ban điều hành máy chủ'
   json:
     enabled: true
     random: false
@@ -26,12 +26,12 @@ message-lists:
     messages:
     - |-
       {
-        "text": "Hover over me!",
+        "text": "&1&l[Hệ thống]&r &3Thông tin ban quản trị",
         "hoverEvent": {
             "action": "show_text",
             "value": [
               {
-                "text": "Woah, you just hovered over me!",
+                "text": "Kenz - 0974748168 - kenzprox@gmail.com",
                 "color": "blue"
               }
             ]
@@ -39,17 +39,17 @@ message-lists:
       }
     - |-
       {
-        "text": "Click me to run a command!",
+        "text": "&1&l[Hệ thống]&r &3 Click vào đây!",
         "clickEvent": {
           "action": "run_command",
-          "value": "/say Clicked."
+          "value": "/say Cảm ơn :D."
         }
       }
     - |-
       {
-        "text": "Click me to open Google!",
+        "text": "&1&l[Hệ thống]&r &3 Click vào đây để vào trang chủ!",
         "clickEvent": {
           "action": "open_url",
-          "value": "http://google.com"
+          "value": "http://www.dropmine.tk"
         }
       }
