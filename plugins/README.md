@@ -23,3 +23,4 @@
 - SkyWars
 - Gringotts
 - Multiverse-Core
+- [CTSNC] ★ Animated Scoreboard and Tablist, NameTag, Chat, ... ★ [Protocol Hack] [1.8 - 1.9]
