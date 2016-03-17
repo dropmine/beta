@@ -20,6 +20,7 @@
 - CTSNC
 - Grief Prevention
 - Armor Stand Edit
+- LWC Unofficial
 # Other
 - Economy Bank
 - A Skyblock
