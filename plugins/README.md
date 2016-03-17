@@ -21,7 +21,7 @@
 - Grief Prevention
 - Armor Stand Edit
 - LWC Unofficial
-/* Các plugin khác */
+-
 # Other
 - Economy Bank
 - A Skyblock
