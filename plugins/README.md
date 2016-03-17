@@ -1,5 +1,4 @@
 # Plugins
-- A Skyblock
 - OpenInv
 - ScavengerHorses
 - iDisguise
@@ -16,12 +15,15 @@
 - CustomShields
 - Advanced Achievements
 - Jobs Reborn
-- Economy Bank
-- MySQL Inventory Bridge
-- Custom EnderChest
-- MySQL Economy Bridge
-- SkyWars
 - Gringotts
 - Multiverse-Core
 - CTSNC
 - Grief Prevention
+- Armor Stand Edit
+# Other
+- Economy Bank
+- A Skyblock
+- SkyWars
+- MySQL Inventory Bridge
+- Custom EnderChest
+- MySQL Economy Bridge
