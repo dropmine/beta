@@ -12,7 +12,7 @@ command:
     output:
       allreset: All money boost turned off
       jobsboostreset: Money boost for %jobname% was turned off
-      nothingtoreset: Nothing to reset
+      nothingtoreset: Không có gì để đặt lại
       boostalladded: Money boost of %boost% added for all jobs!
       boostadded: Money boost of &e%boost% &aadded for &e%jobname%!
       infostats: '&c-----> &aMoney rate x%boost% enabled&c <-------'
@@ -23,7 +23,7 @@ command:
     output:
       allreset: All exp boost turned off
       jobsboostreset: Exp boost for %jobname% was turned off
-      nothingtoreset: Nothing to reset
+      nothingtoreset: Không có gì để đặt lại
       boostalladded: Exp boost of %boost% added for all jobs!
       boostadded: Exp boost of &e%boost% &aadded for &e%jobname%!
       infostats: '&c-----> &aExp rate x%boost% enabled&c <-------'
@@ -48,22 +48,22 @@ command:
       reachedExplimit2: '&eYou can check your limit with &2/jobs limit &ecommand'
       notenabled: '&eMoney limit is not enabled'
   admin:
-    error: There was an error in the command.
+    error: Có một lỗi xảy ra trong lệnh.
     success: Your command has been performed.
   error:
-    notNumber: '&ePlease use numbers!'
-    job: The job you have selected does not exist!
-    permission: You do not have permission to do that!
+    notNumber: '&eVui lòng sử dụng số!'
+    job: Công việc mà bạn đã chọn không tồn tại!
+    permission: Bạn không có quyền làm điều đó!
   help:
     output:
-      info: Type /jobs [cmd] ? for more information about a command.
-      usage: 'Usage: %usage%'
+      info: Nhập /jobs [cmd] ? để có thông tin nhiều hơn về lệnh.
+      usage: 'Sử dụng: %usage%'
   stats:
     help:
       info: Show the level you are in each job you are part of.
       args: '[playername]'
     error:
-      nojob: Please join a job first.
+      nojob: Vui lòng tham gia một công việc trước.
     output: 'lvl%joblevel% %jobname% : %jobxp%/%jobmaxxp% xp'
   archive:
     help:
@@ -168,16 +168,16 @@ command:
       args: '[playername] [jobname] [action]'
   join:
     help:
-      info: Join the selected job.
+      info: Tham gia công việc đã chọn.
       args: '[jobname]'
     error:
-      alreadyin: You are already in the job %jobname%.
-      fullslots: You cannot join the job %jobname%, there are no slots available.
+      alreadyin: Bạn hiện trong công việc %jobname%.
+      fullslots: Bạn không thể tham gia công việc %jobname%, there are no slots available.
       maxjobs: You have already joined too many jobs.
     success: You have joined the job %jobname%.
   leave:
     help:
-      info: Leave the selected job.
+      info: Từ bỏ công việc đã chọn.
       args: '[jobname]'
     success: You have left the job %jobname%.
   fixnames:
@@ -186,17 +186,17 @@ command:
       args: ''
   leaveall:
     help:
-      info: Leave all your jobs.
+      info: Từ bỏ tất cả công việc của bạn.
     error:
-      nojobs: You do not have any jobs to leave!
+      nojobs: Bạn không có công việc nào để từ bỏ!
     success: You have left all your jobs.
   browse:
     help:
-      info: List the jobs available to you.
+      info: Danh sách công việc hợp lệ cho bạn.
     error:
-      nojobs: There are no jobs you can join.
+      nojobs: Không có công việc nào mà bạn có thể tham gia.
     output:
-      header: 'You are allowed to join the following jobs:'
+      header: 'Bạn được phép tham gia những công việc sau đây:'
       footer: For more information type in /jobs info [JobName]
       totalWorkers: ' &7Workers: &e[amount]'
       penalty: ' &4Penalty: &c[amount]%'
