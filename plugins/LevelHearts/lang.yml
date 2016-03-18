@@ -519,3 +519,84 @@ frFR:
       notPlayer: "&4Le joueur (%player)) n'est pas en ligne"
       notNumber: "&4%(number) n'est pas un nombre valide"
       noPermission: "&4Vous n'avez pas la permission de faire ça !"
+viVN:
+  command:
+    error:
+      syntax: "&(red)Syntax: &(yellow)%(syntax)"
+      invalidArgument: "&(red)Argument \"%(arg)\" invalid"
+      invalidArgumentType: "&(red)Argument %(argType) \"%(arg)\" invalid"
+      missingArgument: "&(red)Missing argument %(argType)"
+      notPlayer: "&(red)The player %(player) is currently not online"
+      notNumber: "&(red)%(number) is not a valid number"
+      notPositiveNumber: "&(red)%(number) is not a positive number"
+      noPermission: "&(red)You don't have permission to do this"
+      disabled: "&(red)This command is disabled"
+    argument:
+      amount: "số lượng"
+      player: "người chơi"
+      health: "lượng máu"
+      maxHealth: "lượng máu tối đa"
+    help:
+      command: "&(yellow)/%(syntax)&(gray) - &(white)%(description)"
+    info:
+      self:
+        get: "&(prefix)&(gold)You have %(health)&(gold) of %(maxHealth)&(gold) health!"
+        increase: "&(yellow)Your maximum health will increase on level &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)You can no longer increase your maximum health."
+      other:
+        get: "&(prefix)&(gold)%(player) has %(health)&(gold) of %(maxHealth)&(gold) health!"
+        increase: "&(yellow)His maximum health will increase on level &(gold)%(maxHealthIncreaseLevel)&(yellow)!"
+        noIncrease: "&(yellow)He can no longer increase his maximum health."
+    health:
+      set: "&(yellow)You have changed %(player)'s health to %(health)&(yellow)."
+      give: "&(yellow)You have given %(player) %(healthChange)&(yellow) health.&(br)%(status)"
+      take: "&(yellow)You have taken %(healthChange) health from %(player).&(br)%(status)"
+      restore: "&(yellow)You have restored %(player)'s health.&(br)%(status)"
+    maxHealth:
+      set: "&(yellow)You have changed %(player)'s maximum health to %(maxHealth)&(yellow)."
+      give: "&(yellow)You have given %(player) %(maxHealthChange)&(yellow) maximum health.&(br)%(status)"
+      take: "&(yellow)You have taken %(maxHealthChange)&(yellow) maximum health from %(player).&(br)%(status)"
+      reset: "&(yellow)You have reset %(player)'s maximum health.&(br)%(status)"
+  health:
+    display: "&(red)%(health) &(heart)"
+    status: "&(white) - &(yellow)Current health: %(health)&(yellow)."
+    change:
+      command:
+        set: "&(prefix)&(yellow)Your health has been set to %(health)&(yellow)."
+        give: "&(prefix)&(yellow)Your health has been increased by %(healthChange)&(yellow)."
+        take: "&(prefix)&(yellow)Your health has been decreased by %(healthChange)&(yellow)."
+        restore: "&(prefix)&(yellow)Your health has been restored."
+    help:
+      general: "Health specific commands"
+      get: "Display the health of a player"
+      set: "Change the health of a player"
+      give: "Give health to a player"
+      take: "Take health from a player"
+      restore: "Restore the health of a player"
+  maxHealth:
+    display: "&(red)%(maxHealth) &(heart)"
+    status: "&(white) - &(yellow)Current maximum health: %(maxHealth)&(yellow)."
+    change:
+      levelUp: "&(prefix)&(gold)You leveled up and your maximum health has increased!"
+      death: "&(prefix)&(yellow)Your maximum health has been reset because you died."
+      login: "&(prefix)&(yellow)Your maximum health has been reset because you left the server."
+      command:
+        set: "&(prefix)&(yellow)Your maximum health has been set to %(maxHealth)&(yellow)."
+        give: "&(prefix)&(yellow)Your maximum health has been increased by %(maxHealthChange)&(yellow)."
+        take: "&(prefix)&(yellow)Your maximum health has been decreased by %(maxHealthChange)&(yellow)."
+        reset: "&(prefix)&(yellow)Your maximum health has been reset."
+    help:
+      general: "Maximum health specific commands"
+      get: "Display the maximum health of a player"
+      set: "Change the maximum health of a player"
+      give: "Give maximum health to a player"
+      take: "Take maximum health from a player"
+      reset: "Resets the maximum health of a player"
+  plugin:
+    prefix: "&(gray)[&(darkRed)LevelHearts&(gray)] "
+    info: "&(prefix)&(yellow)This server is running &(red)LevelHearts&(yellow) v%(version) by %(creator)!"
+    website: "&(yellow)Website: &(gray)%(website)"
+    reload: "&(prefix)&(white)Reloaded configurations &(...)"
+    updateAvailable: "&(prefix)&(yellow)An update is available &(white)(%(updateName) for %(updateGameVersion))&(yellow)!&(br)&(white)Download it at &(gray)%(updateLink)&(white)."
+    help:
+      reload: "Reloads the plugin"
