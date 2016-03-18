@@ -3,6 +3,7 @@
 - ScavengerHorses
 - iDisguise
 - BossShop
+- PlayerPoints
 - BetterElytra
 - Custom Join Items
 - Horses
@@ -11,7 +12,6 @@
 - AdvancedSelector
 - Advanced Kits Reloaded
 - Holographic Displays
-- Compassance
 - CustomShields
 - Advanced Achievements
 - Jobs Reborn
@@ -26,7 +26,8 @@
 - StackableItems
 - Marriage Master
 - Stables
-- 
+- SuperVanish
+- Tablist Prefix
 # Other
 - Economy Bank
 - A Skyblock
@@ -34,3 +35,4 @@
 - MySQL Inventory Bridge
 - Custom EnderChest
 - MySQL Economy Bridge
+- iConomy 7
