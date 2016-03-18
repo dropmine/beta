@@ -17,11 +17,16 @@
 - Jobs Reborn
 - Gringotts
 - Multiverse-Core
-- CTSNC
 - Grief Prevention
 - Armor Stand Edit
 - LWC Unofficial
-#
+- Chest Commands GUI
+- MyPet
+- MyPet-NPC
+- StackableItems
+- Marriage Master
+- Stables
+- 
 # Other
 - Economy Bank
 - A Skyblock
