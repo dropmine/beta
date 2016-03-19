@@ -28,6 +28,8 @@
 - Stables
 - SuperVanish
 - Tablist Prefix
+- KitPreview
+- MobHunt
 # Other
 - Economy Bank
 - A Skyblock
